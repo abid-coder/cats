@@ -31,6 +31,22 @@ def eat_food(food): #how to eat food, by a cat
 
 C1 = Cat("bob", 3, 18, "Bengal", "cook", 13) #a description of
 C2 = Cat("timothy", 2, 14, "British Shorthair", "chaser", 24) # 2 cats in the squad	
-C2.chase_roomba(true, 17)
+C2.chase_roomba(True, 17)
 print(C1.name)		
-		
+class Owner_aka_servent(object):
+	"""docstring for Owner_aka.servent"""
+	def __init__(self, name, age, is_male):
+		self.name = name
+		self.age = age
+		self.is_male = is_male
+	def serve_master_cat():
+		print("master cat served")
+	def put_food(bowl_is_not_full, cat_is_hungry):
+		if bowl_is_not_full & cat_is_hungry:
+			print("food has been put")
+		elif bowl_is_not_full & != cat_is_hungry:
+			print("cat is not hungry")
+		else cat_is_hungry & != bowl_is_not_full:
+			print("bowl is full")
+O1 = Owner_aka_servent("jim", 32, True)
+O1.serve_master_cat
