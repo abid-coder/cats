@@ -49,4 +49,4 @@ class Owner_aka_servent(object):
 		else cat_is_hungry & != bowl_is_not_full:
 			print("bowl is full")
 O1 = Owner_aka_servent("jim", 32, True)
-O1.serve_master_cat
+O1.put_food(True, True)
